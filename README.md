@@ -66,15 +66,19 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ## Session du matin (diaporamas)
 
+[... à compléter ...]
 
 ----
 
 ## Atelier 1 : scripting pour la bioanalyse
 
+[... à compléter ...]
+
 ----
 
 ## Atelier 2 : développement logiciel
 
+[... à compléter ...]
 
 ----
 
