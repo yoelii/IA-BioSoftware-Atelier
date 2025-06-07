@@ -16,7 +16,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 
 ## Organisation
 
-- Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
+- [Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
 - Université Paris Cité (iPOP-UP et DU omiques)
 - réseau MERIT
 
