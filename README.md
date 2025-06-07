@@ -18,7 +18,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 
 - [Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
 - Université Paris Cité (iPOP-UP et DU omiques)
-- [Réseau métier des ingénieurs en bioinformatique (MERIT)](https://merit.cnrs.fr/)
+- [Réseau métier en bioinformatique (MERIT)](https://merit.cnrs.fr/)
 
 ## Comité scientifique et de programmation
 
