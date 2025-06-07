@@ -76,4 +76,14 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 ## Atelier 2 : développement logiciel
 
 
+---
+
+| | | |
+|:----:|:----:|:----:|
+Û ![image](https://github.com/user-attachments/assets/b7f41987-73a4-43e3-9b9b-aff05e7038ce) | ![image](https://github.com/user-attachments/assets/77da3f5b-3ccd-4498-a454-a58cbd3fdc16)
+ | ![image](https://github.com/user-attachments/assets/30902549-ff37-4340-9e6a-baf6a0c6801c) |
+
+
+
+
 
