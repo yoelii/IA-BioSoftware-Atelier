@@ -58,7 +58,7 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 | Programme et inscriptions  | <https://iabioscripting.sciencesconf.org/> |
 | Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 | Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
-| Plateforme logicielle Pleiade utilisée pour l'atelier pratique | https://pleiade.mi.parisdescartes.fr/ |
+| Plateforme logicielle Pleiade utilisée pour l'atelier pratique | <https://pleiade.mi.parisdescartes.fr/> |
 | IFB-core cluster | <https://my.cluster.france-bioinformatique.fr/> |
 
 
