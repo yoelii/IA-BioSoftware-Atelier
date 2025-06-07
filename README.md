@@ -76,7 +76,8 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 | Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 | Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
 | Plateforme logicielle Pleiade utilisée pour l'atelier pratique | <https://pleiade.mi.parisdescartes.fr/> |
-| IFB-core cluster | <https://my.cluster.france-bioinformatique.fr/> |
+| Cluster IFB-core : interface OnDeomand | <https://ondemand.cluster.france-bioinformatique.fr/> |
+| Cluster IFB-core : demande de compte ou  d'espace-projet *(pas nécessaire pour l'atelier, utile uniquement si vous désirez continuer à  utiliser le cluster après la formation)*  | <https://my.cluster.france-bioinformatique.fr/> |
 
 
 ----
@@ -87,13 +88,35 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ----
 
-## Atelier 1 : scripting pour la bioanalyse
+## Ateliers pratiques de l'après-midi
+
+### Accès aux IA génératives de la plateforme Pleiade
+
+### Accès au cluster IFB
+
+1. Dans un navigateur, ouvrez une connection vers l'interface OnDemand du cluster IFB : <https://ondemand.cluster.france-bioinformatique.fr/>
+2. OnDemand vous présente un choix d'interfaces pour utiliser le cluster IFB
+
+![image](https://github.com/user-attachments/assets/d8f8816b-7349-4f68-8e95-0d2b7938bc3d)
+
+3. Choisissez l'interface qui vous convient selon votre langage préféré: RStudio (R) ou JupyterHub (Python, et éventuellement R).
+
+OnDemand vous permet de configurer les ressources de calcul qui vous seront attribuées pour votre session. 
+
+4. 
+
+| JupyterHub | RStudio | 
+|:------------------------:|:------------------------:|
+| ![image](https://github.com/user-attachments/assets/872295d8-044b-41d6-b6fd-dc2f1a152ea9) | ![image](https://github.com/user-attachments/assets/8ed5e6b4-261a-468c-8912-366c3bc7d968) |
+
+
+### Atelier 1 : scripting pour la bioanalyse
 
 [... à compléter ...]
 
 ----
 
-## Atelier 2 : développement logiciel
+### Atelier 2 : développement logiciel
 
 [... à compléter ...]
 
