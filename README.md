@@ -22,20 +22,20 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 
 ## Comité scientifique et de programmation
 
-- Bertrand Cosson (Université Paris-Cité)
+- [Bertrand Cosson](https://orcid.org/0000-0003-3401-7137) (Université Paris-Cité)
 - [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
-- Vincent Lefort (réseau MERIT)
-- Imane Messak  (Institut Français de Bioinformatique)
+- [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
+- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
 
 ## Encadrants pour les ateliers pratiques
 
-- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (IFB)
-- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (IFB)
-- [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (IFB)
+- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
+- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
+- [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (Institut Français de Bioinformatique)
 - [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) (Université de Montpellier)
 - [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
 - [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
-- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (IFB)
+- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
 - Fanny Casse (Université Paris-Cité)
 
 ## Liens
