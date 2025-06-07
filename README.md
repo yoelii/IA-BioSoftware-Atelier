@@ -61,8 +61,17 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 | Plateforme logicielle Pleiade utilisée pour l'atelier pratique | https://pleiade.mi.parisdescartes.fr/ |
 | IFB-core cluster | <https://my.cluster.france-bioinformatique.fr/> |
 
+
+----
+
+## Session du matin (diaporamas)
+
+
+----
+
 ## Atelier 1 : scripting pour la bioanalyse
 
+----
 
 ## Atelier 2 : développement logiciel
 
