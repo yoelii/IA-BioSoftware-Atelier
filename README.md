@@ -14,6 +14,10 @@ La matinée sera consacrée à des présentations introductives et une table ron
 
 L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant aux participants de tester collectivement la pertinence et les limites des IA génératives pour les assister dans divers cas d’usage scientifique (chargement de données, parsing, analyse de séquences, visualisation…), en R ou en Python.
 
+## Programme
+
+- <https://iabioscripting.sciencesconf.org/program?lang=fr>
+
 ## Organisation
 
 - [Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
@@ -27,7 +31,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 - [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
 - [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
 
-## Encadrants pour les ateliers pratiques
+## Encadrants
 
 - [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
 - [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
@@ -38,7 +42,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 - [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
 - Fanny Casse (Université Paris-Cité)
 
-## Liens
+## Ressources informatiques
 
 | Ressource | URL |
 |:------------|:---------------------------------------|
