@@ -59,7 +59,6 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 - [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
 - [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) (Université de Montpellier)
 - Fanny Casse (Université Paris-Cité)
-
 - [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
 - [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
 
