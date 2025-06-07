@@ -33,7 +33,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 
 ## Programme
 
-- <https://iabioscripting.sciencesconf.org/program?lang=fr>
+- <https://iabioscripting.sciencesconf.org/program>
 
 ## Organisation
 
