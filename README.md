@@ -46,6 +46,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 | Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 | Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
 | Plateforme logicielle Pleiade utilisée pour l'atelier pratique | https://pleiade.mi.parisdescartes.fr/ |
+| IFB-core cluster | <https://my.cluster.france-bioinformatique.fr/> |
 
 ## Atelier 1 : scripting pour la bioanalyse
 
