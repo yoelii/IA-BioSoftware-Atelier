@@ -37,14 +37,19 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ## Encadrants
 
-- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
-- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
-- [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (Institut Français de Bioinformatique)
-- [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) (Université de Montpellier)
-- [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
-- [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
+### Atelier scripting pour la bioanalyse
+
 - [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
+- [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) (Université de Montpellier)
+- [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
+- [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
 - Fanny Casse (Université Paris-Cité)
+
+### Atelier développement logiciel
+
+- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
+- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
+- [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (Institut Français de Bioinformatique)
 
 ## Ressources informatiques
 
