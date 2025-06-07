@@ -20,9 +20,13 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 
 ## Organisation
 
+Le colloque est organisé et financé par les trois organisations suivantes : 
+
 - [Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
 - Université Paris Cité ([plateforme iPOP-UP](https://ipop.u-paris.fr/) et [DU omiques](https://ipop.u-paris.fr/duomiques/))
 - [Réseau métier en bioinformatique (MERIT)](https://merit.cnrs.fr/)
+
+L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d'Investissements d'Avenir subventionné par l'Agence Nationale de la Recherche (ANR-11-INBS-0013) et par le programme France 2030 relatifs aux équipements structurants pour la recherche / EQUIPEX+ (ANR-21-ESRE-0048).
 
 ## Comité scientifique et de programmation
 
