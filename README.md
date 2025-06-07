@@ -43,7 +43,7 @@ L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant au
 | Ressource | URL |
 |:------------|:---------------------------------------|
 | Programme et inscriptions  | <https://iabioscripting.sciencesconf.org/> |
-| Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/BioScriptAI-Atelier/> |
+| Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 | Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
 | Plateforme logicielle Pleiade utilisée pour l'atelier pratique | https://pleiade.mi.parisdescartes.fr/ |
 
