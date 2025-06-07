@@ -76,7 +76,7 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 | Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 | Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
 | Plateforme logicielle Pleiade utilisée pour l'atelier pratique | <https://pleiade.mi.parisdescartes.fr/> |
-| Cluster IFB-core : interface OnDeomand | <https://ondemand.cluster.france-bioinformatique.fr/> |
+| Cluster IFB-core : interface OnDemand | <https://ondemand.cluster.france-bioinformatique.fr/> |
 | Cluster IFB-core : demande de compte ou  d'espace-projet *(pas nécessaire pour l'atelier, utile uniquement si vous désirez continuer à  utiliser le cluster après la formation)*  | <https://my.cluster.france-bioinformatique.fr/> |
 
 
