@@ -7,7 +7,7 @@
       <img src="https://github.com/user-attachments/assets/77da3f5b-3ccd-4498-a454-a58cbd3fdc16" alt="Logo 2" height="120">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/30902549-ff37-4340-9e6a-baf6a0c6801c" alt="Logo 3" height="110">
+      <img src="https://github.com/user-attachments/assets/30902549-ff37-4340-9e6a-baf6a0c6801c" alt="Logo 3" height="100">
     </td>
   </tr>
 </table>
