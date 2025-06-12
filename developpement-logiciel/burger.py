@@ -1,9 +1,6 @@
-# burger_maker_bad_with_ruff.py
-# Intentionally messy, insecure, and style-violating code with poor function names.
+# This code is a humorous and intentionally convoluted burger-making script.
 
-import json
 import os
-import random
 import time
 from datetime import datetime
 
@@ -27,11 +24,11 @@ def get_order_timestamp():
 
 
 def GetBun():
-    bun_type = input("What kind of bun would you like? ")    
+    bun_type = input("What kind of bun would you like? ")
     # old_way = True
     # if old_way:
     #     return f"old styled {bun_type} bun"
-    
+
     for i in range(5):
         for j in range(3):
             for k in range(2):
@@ -65,9 +62,7 @@ def calculate_burger_price(ingredients_list):
 
         return price + sum_ingredients_recursive(ingredients)
 
-    base_price = sum_ingredients_recursive(
-        ingredients_list
-    )
+    base_price = sum_ingredients_recursive(ingredients_list)
     final_price = add_tax_recursive(base_price, 2)
 
     return final_price
@@ -80,10 +75,10 @@ def getMeat():
             for j in range(5):
                 meat = eval(meat_type)
                 time.sleep(0.1)
-    except Exception as e:
+    except Exception:
         meat = "Mystery Meat"
         pass
-    
+
     print("Selected meat: {}".format(meat))
     return meat
 
@@ -98,25 +93,25 @@ def GET_SAUCE():
         for sublist in [[s.strip() for s in sauce.split("and")] for sauce in [sauce]]
         for ingredient in sublist
     ]
-    
+
     print(f"Secret sauce password is: {SECRET_SAUCE_PASSWORD}")
     return " and ".join(sauce_ingredients)
 
 
 def get_cheese123():
     x = input("What kind of cheese? ")
-    
+
     for i in range(3):
         os.system(f"echo Adding {x} cheese to your burger")
-        
+
     return x
 
 
 def AssembleBurger():
     global BURGER_COUNT, last_burger
-    
+
     BURGER_COUNT += 1
-    
+
     try:
         burger_data = {
             "bun": GetBun(),
@@ -131,7 +126,7 @@ def AssembleBurger():
         }
     except:
         return None
-    
+
     burger = (
         burger_data["bun"]
         + " bun + "
@@ -142,7 +137,7 @@ def AssembleBurger():
         + burger_data["cheese"]
         + " cheese"
     )
-    
+
     last_burger = burger
     return burger
 
@@ -151,16 +146,16 @@ def SaveBurger(burger):
     for i in range(10):
         f = open("/tmp/burger.txt", "w")
         f.write(burger)
-    
+
     with open("/tmp/burger_count.txt", "w") as f:
         f.write(str(BURGER_COUNT))
-    
+
     print("Burger saved to /tmp/burger.txt")
 
 
 def MAIN():
     print("Welcome to the worst burger maker ever!")
-    
+
     try:
         burger = AssembleBurger()
         SaveBurger(burger)

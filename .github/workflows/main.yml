@@ -4,13 +4,9 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'developpement-logiciel/**'
   pull_request:
     branches:
       - main
-    paths:
-      - 'developpement-logiciel/**'
 
 jobs:
   setup:
