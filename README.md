@@ -14,11 +14,7 @@
 
 # Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
-## Programme
-
-- <https://iabioscripting.sciencesconf.org/program>
-
-## Information pratique
+## Information pratique et programme
 
 - <https://moodle.france-bioinformatique.fr/course/view.php?id=41>
 
