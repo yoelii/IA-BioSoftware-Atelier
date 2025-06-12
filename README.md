@@ -14,30 +14,17 @@
 
 # Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
-
-
-
-Ce site contient le matériel de support des ateliers pratiques organisés dans le cadre du colloque "Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie". 
-
-## Date et localisation
-
-Le 13 juin 2025, sur le campus des Grands Moulins, 5, rue Thomas Mann, 75013 Paris.
-
-## Motivation
-
-L’intelligence artificielle générative s’intègre de plus en plus aux pratiques de programmation scientifique, en particulier en bioinformatique. Ce colloque vise à rassembler des expériences, des outils et des perspectives sur l’utilisation de l’IA générative (telle que ChatGPT, Copilot, Devin, etc.) pour le développement de scripts et de logiciels pour la biologie.
-
-La matinée sera consacrée à des présentations introductives et une table ronde où développeures, chercheurs, enseignants et  formateurs partageront leurs retours d’expérience concrets (prompting, code généré, réussites et limites).
-
-L’après-midi sera dédiée à des ateliers pratiques encadrés, permettant aux participants de tester collectivement la pertinence et les limites des IA génératives pour les assister dans divers cas d’usage scientifique (chargement de données, parsing, analyse de séquences, visualisation…), en R ou en Python.
-
 ## Programme
 
 - <https://iabioscripting.sciencesconf.org/program>
 
+## Information pratique
+
+- <https://moodle.france-bioinformatique.fr/course/view.php?id=41>
+
 ## Organisation
 
-Le colloque est organisé et financé par les trois organisations suivantes : 
+Le colloque est organisé et financé par les trois organisations suivantes :
 
 - [Institut Français de Bioinformatique (IFB)](https://www.france-bioinformatique.fr/)
 - Université Paris Cité ([plateforme iPOP-UP](https://ipop.u-paris.fr/) et [DU omiques](https://ipop.u-paris.fr/duomiques/))
@@ -45,79 +32,40 @@ Le colloque est organisé et financé par les trois organisations suivantes :
 
 L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d'Investissements d'Avenir subventionné par l'Agence Nationale de la Recherche ([RENABI-IFB, ANR-11-INBS-0013](https://anr.fr/ProjetIA-11-INBS-0013)) et par le programme France 2030 relatifs aux équipements structurants pour la recherche / EQUIPEX+ ([MUDIS4LS, ANR-21-ESRE-0048](https://anr.fr/ProjetIA-21-ESRE-0048)).
 
-## Comité scientifique et de programmation
-
-- [Bertrand Cosson](https://orcid.org/0000-0003-3401-7137) (Université Paris-Cité)
-- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
-- [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
-- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
-
-## Encadrants
-
-### Atelier scripting pour la bioanalyse
-
-- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
-- [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) (Université de Montpellier)
-- Fanny Casse (Université Paris-Cité)
-- [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
-- [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
-
-### Atelier développement logiciel
+### Encadrants
 
 - [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
 - [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
 - [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (Institut Français de Bioinformatique)
 
-## Ressources informatiques
+## Atelier : Développement logiciel
 
-| Ressource | URL |
-|:------------|:---------------------------------------|
-| Programme et inscriptions  | <https://iabioscripting.sciencesconf.org/> |
-| Site Web de l'atelier pratique | <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
-| Code et données de l'atelier pratique | <https://github.com/IFB-ElixirFr/IA-BioSoftware-Atelier/> |
-| Plateforme logicielle Pleiade utilisée pour l'atelier pratique | <https://pleiade.mi.parisdescartes.fr/> |
-| Cluster IFB-core : interface OnDemand | <https://ondemand.cluster.france-bioinformatique.fr/> |
-| Cluster IFB-core : demande de compte ou  d'espace-projet *(pas nécessaire pour l'atelier, utile uniquement si vous désirez continuer à  utiliser le cluster après la formation)*  | <https://my.cluster.france-bioinformatique.fr/> |
+Dans cet atelier, nous explorerons comment l’intelligence artificielle peut devenir un véritable assistant au service du développement logiciel. À l’aide d’outils comme [Pleiade](https://pleiade.mi.parisdescartes.fr/), [chatGPT](https://chat.openai.com/), [Perplexity](https://www.perplexity.ai/) ou d’autres assistants basés sur l’IA, les participant·es apprendront à:
 
+- Corriger automatiquement des erreurs dans leur code (syntaxe, logique, style)
 
-----
+- Optimiser des portions de code pour plus d'efficacité ou de lisibilité
 
-## Session du matin (diaporamas)
+- Suggérer des améliorations respectant les bonnes pratiques de programmation
 
-[... à compléter ...]
+- Passer avec succès les vérifications automatiques d'intégration continue (CI)
 
-----
+- Générer ou compléter automatiquement des fonctions, des tests unitaires ou de la documentation
 
-## Ateliers pratiques de l'après-midi
+Cet atelier a pour but de montrer comment l’IA peut accompagner les bioinformaticiens dans leurs projets de scripting et d’analyse, en réduisant le temps passé à déboguer et en augmentant la qualité du code produit.
 
-### Accès aux IA génératives de la plateforme Pleiade
+## Contributor Code of conduct
 
-### Accès au cluster IFB
+Veuillez noter que ce projet est publié avec [Contributor Code of Conduct](https://www.contributor-covenant.org/). En participant, vous acceptez d’en respecter les termes. Voir le fichier [CODE_OF_CONDUCT](code_of_conduct.md).
 
-1. Dans un navigateur, ouvrez une connection vers l'interface OnDemand du cluster IFB : <https://ondemand.cluster.france-bioinformatique.fr/>
-2. OnDemand vous présente un choix d'interfaces pour utiliser le cluster IFB
+## Licence
 
-![image](https://github.com/user-attachments/assets/d8f8816b-7349-4f68-8e95-0d2b7938bc3d)
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-3. Choisissez l'interface qui vous convient selon votre langage préféré: RStudio (R) ou JupyterHub (Python, et éventuellement R).
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-OnDemand vous permet de configurer les ressources de calcul qui vous seront attribuées pour votre session. 
-
-4. 
-
-| JupyterHub | RStudio | 
-|:------------------------:|:------------------------:|
-| ![image](https://github.com/user-attachments/assets/872295d8-044b-41d6-b6fd-dc2f1a152ea9) | ![image](https://github.com/user-attachments/assets/8ed5e6b4-261a-468c-8912-366c3bc7d968) |
-
-
-### Atelier 1 : scripting pour la bioanalyse
-
-[... à compléter ...]
-
-----
-
-### Atelier 2 : développement logiciel
-
-[... à compléter ...]
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 ----
