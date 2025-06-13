@@ -96,11 +96,9 @@ def save_burger(burger: str) -> None:
     """
     with tempfile.NamedTemporaryFile(delete=False) as burger_file:
         burger_file.write(burger.encode())
-        burger_file_path = burger_file.name
 
     with tempfile.NamedTemporaryFile(delete=False) as count_file:
         count_file.write(str(BURGER_COUNT).encode())
-        count_file_path = count_file.name
 
 
 def main() -> None:
