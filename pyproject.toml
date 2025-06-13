@@ -6,11 +6,11 @@ requires-python = ">=3.11"
 
 dependencies = [
     "ruff",
-    "bandit",
+    "bandit==1.7.7",
     "safety",
     "pytest",
     "pytest-cov",
-    "pyyaml==5.3",
+    "pyyaml==5.4",
 ]
 
 [tool.ruff.lint]
