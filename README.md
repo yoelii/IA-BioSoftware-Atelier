@@ -161,3 +161,7 @@ S108 : Les fichiers écrits dans le chemin temporaire sont quelque peu sécuris�
 W291 : Espacement en fin de ligne supprimé.
 W292 : Ajout d'une nouvelle ligne en fin de fichier pour respectant les principales conventions de formatage.
 Ces modifications devraient résoudre toutes les erreurs signalées par Ruff.
+
+correction des erreurs safety sans IA.
+
+en modifiant les numéros de version -> debugg classique.
