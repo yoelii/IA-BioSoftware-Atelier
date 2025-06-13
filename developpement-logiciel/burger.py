@@ -28,9 +28,9 @@ def get_bun() -> str:
 
 def calculate_burger_price(ingredients_list) -> float:
     """
-    Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
+    Calcule le prix total d'une liste d'ingrédients.
     
-    de chaque ingrédient et en appliquant un taux d'impôt de 20%.
+    En ajoutant les prix de chaque ingrédient et en appliquant un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
         return sum(INGREDIENT_PRICES.get(ingredient, 0) for ingredient in ingredients)
@@ -101,8 +101,9 @@ def save_burger(burger: str) -> None:
 
 def main() -> None:
     """
-    Point d'entrée principal du script. Accueille l'utilisateur
-    et assemble un burger.
+    Point d'entrée principal du script. 
+    
+    Accueille l'utilisateur et assemble un burger.
     """
     burger = assemble_burger()
     if burger:
