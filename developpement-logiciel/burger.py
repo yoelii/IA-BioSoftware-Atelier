@@ -21,14 +21,16 @@ def get_order_timestamp() -> str:
 def get_bun() -> str:
     """
     Demande à l'utilisateur quel type de pain il souhaite.
+
     Retourne le type de pain sélectionné.
     """
     return input("What kind of bun would you like? ")
 
 def calculate_burger_price(ingredients_list) -> float:
     """
-    Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
-    de chaque ingrédient et en appliquant un taux d'impôt de 20%.
+    Calcule le prix total d'une liste d'ingrédients.
+     
+    Prix de chaque ingrédient et un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
         return sum(INGREDIENT_PRICES.get(ingredient, 0) for ingredient in ingredients)
@@ -112,3 +114,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
