@@ -1,5 +1,5 @@
 from datetime import datetime
-import tempfile
+from tempfile import tempfile
 
 # Prix des ingrédients
 INGREDIENT_PRICES = {
