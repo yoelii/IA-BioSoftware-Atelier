@@ -15,9 +15,7 @@ INGREDIENT_PRICES = {
 BURGER_COUNT = 0
 
 def get_order_timestamp() -> str:
-    """
-    Obtient un horodatage actuel sous forme de chaîne de caractères.
-    """
+    """Obtient un horodatage actuel sous forme de chaîne de caractères."""
     return str(datetime.now())
 
 def get_bun() -> str:
@@ -46,9 +44,7 @@ def get_meat() -> str:
     return input("Enter the meat type: ")
 
 def get_sauce() -> str:
-    """
-    Définit et retourne la sauce par défaut.
-    """
+    """Définit et retourne la sauce par défaut."""
     return "ketchup and mustard"
 
 def get_cheese() -> str:
