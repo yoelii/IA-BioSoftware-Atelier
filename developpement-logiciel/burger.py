@@ -37,8 +37,9 @@ def calculate_burger_price(ingredients_list) -> float:
     return base_price * 1.2  # 20% de taxe
 
 def get_meat() -> str:
-    """Demande à l'utilisateur quel type de viande il souhaite.
-
+    """
+    Demande à l'utilisateur quel type de viande il souhaite.
+    
     Retourne le type de viande sélectionné.
     """
     return input("Enter the meat type: ")
@@ -50,13 +51,14 @@ def get_sauce() -> str:
 def get_cheese() -> str:
     """
     Demande à l'utilisateur quel type de fromage il souhaite.
-
+    
     Retourne le type de fromage sélectionné.
     """
     return input("What kind of cheese? ")
 
 def assemble_burger() -> str:
-    """Assemble un burger en appelant les fonctions pour chaque ingrédient.
+    """
+    Assemble un burger en appelant les fonctions pour chaque ingrédient.
 
     Retourne une chaîne décrivant le burger et son prix.
     """
@@ -98,6 +100,7 @@ def save_burger(burger: str) -> None:
 def main() -> None:
     """
     Point d'entrée principal du script.
+
     Accueille l'utilisateur et assemble un burger.
     """
     burger = assemble_burger()
