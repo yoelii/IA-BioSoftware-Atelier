@@ -23,6 +23,7 @@
 ## Information pratique et programme
 
 - <https://moodle.france-bioinformatique.fr/course/view.php?id=41>
+- https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/ 
 
 ## Organisation
 
