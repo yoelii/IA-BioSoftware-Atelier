@@ -29,7 +29,7 @@ def get_bun() -> str:
 def calculate_burger_price(ingredients_list) -> float:
     """
     Calcule le prix total d'une liste d'ingrédients.
-     
+ 
     Prix de chaque ingrédient et un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
@@ -41,7 +41,7 @@ def calculate_burger_price(ingredients_list) -> float:
 def get_meat() -> str:
     """
     Demande à l'utilisateur quel type de viande il souhaite.
-    
+
     Retourne le type de viande sélectionné.
     """
     return input("Enter the meat type: ")
@@ -53,7 +53,7 @@ def get_sauce() -> str:
 def get_cheese() -> str:
     """
     Demande à l'utilisateur quel type de fromage il souhaite.
-    
+ 
     Retourne le type de fromage sélectionné.
     """
     return input("What kind of cheese? ")
