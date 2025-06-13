@@ -108,3 +108,5 @@ Modifications apportées :
 Suppression des boucles inutiles et des importations non utilisées : Les boucles redondantes et les fonctionnalités inutilement compliquées ont été supprimées.
 Simplification des fonctions : Les fonctions ont été simplifiées pour limiter les doublons et améliorer la lisibilité.
 Gestion des erreurs : Ajout de messages d'erreur pour améliorer le suivi des exceptions.
+
+requete explique githb action
