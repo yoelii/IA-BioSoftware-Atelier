@@ -1,13 +1,19 @@
-<table border="0" cellpadding="20" style="width: 100%;" align="center">
+<table style="width: 600px; border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/b7f41987-73a4-43e3-9b9b-aff05e7038ce" alt="Logo 1" height="120">
+      <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/77da3f5b-3ccd-4498-a454-a58cbd3fdc16" alt="Logo 2" height="120">
+      <img src="images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" style="height: 60px; width: auto;">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/30902549-ff37-4340-9e6a-baf6a0c6801c" alt="Logo 3" height="100">
+      <img src="images/IFB-logo.png" alt="IFB" style="height: 65px; width: auto;">
+    </td>
+    <td align="center">
+      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" style="height: 60px; width: auto;">
+    </td>
+    <td align="center">
+      <img src="images/MERIT-logo.png" alt="MERIT" style="height: 50px; width: auto;">
     </td>
   </tr>
 </table>
