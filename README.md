@@ -47,7 +47,7 @@ Dans cet atelier, nous explorerons comment l’intelligence artificielle peut de
 
 - Corriger automatiquement des erreurs dans leur code (syntaxe, logique, style)
 
-- Optimiser des portions de code pour plus d'efficacité ou de lisibilité
+- Optimiser des portions de code pour plus d'efficacité ou de lisibilités
 
 - Suggérer des améliorations respectant les bonnes pratiques de programmation
 
