@@ -50,6 +50,18 @@ Dans cet atelier, nous explorerons comment l’intelligence artificielle peut de
 
 Cet atelier a pour but de montrer comment l’IA peut accompagner les bioinformaticiens dans leurs projets de scripting et d’analyse, en réduisant le temps passé à déboguer et en augmentant la qualité du code produit.
 
+### Instruction pour l'atelier
+
+1. Fork le project
+2. Clone le projet
+3. Ouvre le projet et commence a debuger avec ton outils IA préférer
+
+À la fin de la session dans le `README`:
+
+- Ajouter l’outil utilisé (pléiade, chatGPT, copitot,...)
+- Ajouter le modèle utilisé
+- Ajouter le nombre de requêtes réalisée
+
 ## Contributor Code of conduct
 
 Veuillez noter que ce projet est publié avec [Contributor Code of Conduct](https://www.contributor-covenant.org/). En participant, vous acceptez d’en respecter les termes. Voir le fichier [CODE_OF_CONDUCT](code_of_conduct.md).
