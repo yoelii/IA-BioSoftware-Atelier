@@ -1,4 +1,5 @@
 from datetime import datetime
+import tempfile
 
 # Prix des ingrédients
 INGREDIENT_PRICES = {
@@ -88,16 +89,20 @@ def assemble_burger() -> str:
     )
 
 def save_burger(burger: str) -> None:
-    """
-    Sauvegarde le burger dans un fichier de texte.
+    """Sauvegarde le burger dans un fichier de texte.
 
     Écrit également le compte des burgers dans un autre fichier.
     """
-    with open("/tmp/burger.txt", "w") as f:
-        f.write(burger)
+    with tempfile.NamedTemporaryFile(delete=False) as burger_file:
+        burger_file.write(burger.encode())
+        burger_file_path = burger_file.name
 
-    with open("/tmp/burger_count.txt", "w") as f:
-        f.write(str(BURGER_COUNT))
+    with tempfile.NamedTemporaryFile(delete=False) as count_file:
+        count_file.write(str(BURGER_COUNT).encode())
+        count_file_path = count_file.name
+
+    print(f"Burger saved to {burger_file_path}")
+    print(f"Burger count saved to {count_file_path}")
 
 def main() -> None:
     """
