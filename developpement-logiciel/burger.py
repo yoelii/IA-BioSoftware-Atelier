@@ -1,5 +1,3 @@
-import os
-import time
 from datetime import datetime
 
 # Prix des ingrédients
@@ -16,56 +14,51 @@ INGREDIENT_PRICES = {
 # Variable globale pour le compte des burgers
 BURGER_COUNT = 0
 
-def get_order_timestamp():
+def get_order_timestamp() -> str:
     """
-    Procure un horodatage actuel sous forme de chaîne de caractères.
+    Obtient un horodatage actuel sous forme de chaîne de caractères.
     """
     return str(datetime.now())
 
-def get_bun():
+def get_bun() -> str:
     """
     Demande à l'utilisateur quel type de pain il souhaite.
     Retourne le type de pain sélectionné.
     """
-    bun_type = input("What kind of bun would you like? ")
-    return bun_type
+    return input("What kind of bun would you like? ")
 
-def calculate_burger_price(ingredients_list):
+def calculate_burger_price(ingredients_list) -> float:
     """
     Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
-    de chaque ingrédient et en appliquant des taux d'impôt.
+    de chaque ingrédient et en appliquant le taux d'impôt.
     """
     def sum_ingredients(ingredients):
         return sum(INGREDIENT_PRICES.get(ingredient, 0) for ingredient in ingredients)
 
     base_price = sum_ingredients(ingredients_list)
-    final_price = base_price * 1.2  # 20% de taxe
+    return base_price * 1.2  # 20% d'impôt
 
-    return final_price
-
-def get_meat():
+def get_meat() -> str:
     """
     Demande à l'utilisateur quel type de viande il souhaite.
     Retourne le type de viande sélectionné.
     """
-    meat_type = input("Enter the meat type: ")
-    return meat_type
+    return input("Enter the meat type: ")
 
-def get_sauce():
+def get_sauce() -> str:
     """
     Définit et retourne la sauce par défaut.
     """
     return "ketchup and mustard"
 
-def get_cheese():
+def get_cheese() -> str:
     """
     Demande à l'utilisateur quel type de fromage il souhaite.
     Retourne le type de fromage sélectionné.
     """
-    cheese_type = input("What kind of cheese? ")
-    return cheese_type
+    return input("What kind of cheese? ")
 
-def assemble_burger():
+def assemble_burger() -> str:
     """
     Assemble un burger en appelant les fonctions pour chaque ingrédient.
     Retourne une chaîne décrivant le burger et son prix.
@@ -86,7 +79,6 @@ def assemble_burger():
             "timestamp": get_order_timestamp(),
         }
     except Exception as e:
-        print(f"Error assembling burger: {e}")
         return None
 
     burger = (
@@ -98,7 +90,7 @@ def assemble_burger():
 
     return burger
 
-def save_burger(burger):
+def save_burger(burger: str) -> None:
     """
     Sauvegarde le burger dans un fichier de texte.
     Écrit également le compte des burgers dans un autre fichier.
@@ -109,22 +101,17 @@ def save_burger(burger):
     with open("/tmp/burger_count.txt", "w") as f:
         f.write(str(BURGER_COUNT))
 
-    print("Burger saved to /tmp/burger.txt")
-
-def main():
+def main() -> None:
     """
-    Point d'entrée principal du script. Accueille l'utilisateur et assemble un burger.
+    Point d'entrée principal du script. Accueille l'utilisateur
+    et assemble un burger.
     """
-    print("Welcome to the Burger Maker!")
+    burger = assemble_burger()
 
-    try:
-        burger = assemble_burger()
-        if burger:
-            save_burger(burger)
-        else:
-            print("Failed to assemble the burger.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    if burger:
+        save_burger(burger)
+    else:
+        pass  # Est-ce que l'on veut une gestion d'erreur plus fine ici?
 
 if __name__ == "__main__":
     main()
