@@ -21,6 +21,7 @@ def get_order_timestamp() -> str:
 def get_bun() -> str:
     """
     Demande à l'utilisateur quel type de pain il souhaite.
+
     Retourne le type de pain sélectionné.
     """
     return input("What kind of bun would you like? ")
@@ -28,6 +29,7 @@ def get_bun() -> str:
 def calculate_burger_price(ingredients_list) -> float:
     """
     Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
+    
     de chaque ingrédient et en appliquant un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
@@ -37,7 +39,8 @@ def calculate_burger_price(ingredients_list) -> float:
     return base_price * 1.2  # 20% de taxe
 
 def get_meat() -> str:
-    """Demande à l'utilisateur quel type de viande il souhaite.
+    """
+    Demande à l'utilisateur quel type de viande il souhaite.
 
     Retourne le type de viande sélectionné.
     """
