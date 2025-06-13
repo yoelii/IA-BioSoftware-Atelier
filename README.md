@@ -23,7 +23,7 @@
 ## Information pratique et programme
 
 - <https://moodle.france-bioinformatique.fr/course/view.php?id=41>
-- https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/ 
+- https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/
 
 ## Organisation
 
@@ -83,4 +83,17 @@ Veuillez noter que ce projet est publié avec [Contributor Code of Conduct](http
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
-----
+---
+
+## Retour atelier
+
+### Premier test sur pleiade avec codellama.
+
+J'ai demandé une explication de l'ensemble du code python contenu dans le fichier "burger.py".
+
+--> j'ai obtenu la réponse en anglais qui m'a informé que le code était un code écrit en java.
+Il m'a aussi répondu plus de 80 fois la même explication sans lien avec le code.
+
+après deux autres requetes avec des réponses sans lien avec la question posée, j'ai changé de modèle
+
+### second test sur librechat.pasteur.fr avec le modèle mistral.
