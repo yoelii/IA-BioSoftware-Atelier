@@ -133,3 +133,23 @@ Correction des docstrings pour qu'elles soient succinctes et conformes.
 Utilisation de systèmes d'erreurs en lieu et place de print à des fins de diagnostic.
 Organisation des écritures de fichiers dans des fichiers sécurisés évitant les avertissements sur tmp.
 Ajout d'une nouvelle ligne en fin de fichier.
+
+Voici les corrections apportées au script pour résoudre les erreurs signalées par Ruff :
+
+Ajouter une ligne vide entre les lignes de résumé et de description dans les docstrings.
+Condenser les docstrings sur une seule ligne si possible.
+Éviter les variables local assignées mais jamais utilisées.
+Corriger les affectations inutiles avant un return.
+Corriger les chemins d'accès des fichiers temporaires.
+Ajouter une nouvelle ligne en fin de fichier.
+Voici le code corrigé avec les erreurs commentées et rectifiées :
+
+Nouvelle correction :
+Changements apportés :
+Corrections des docstrings : Ajout de ligne vide où cela était nécessaire.
+Concaténiation des docstrings sur une seule ligne lorsque c'était approprié.
+Élimination des affectations inutiles avant les return statements.
+Supression de la variable e non utilisée dans la gestion d'erreur.
+Correction des chemins de fichier temporaires (si nécessaire) : À long terme, il est recommandé de changer l'emplacement des fichiers, mais comme mentionnés précédemment, cela dépendrait de la situation d'utilisation dans un environnement sécurisé.
+Ajout d'une nouvelle ligne en fin de fichier,
+Ces modifications doivent rendre votre code conforme aux standards de Ruff.

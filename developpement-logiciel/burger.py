@@ -28,28 +28,29 @@ def get_bun() -> str:
 def calculate_burger_price(ingredients_list) -> float:
     """
     Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
-    de chaque ingrédient et en appliquant le taux d'impôt.
+    de chaque ingrédient et en appliquant un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
         return sum(INGREDIENT_PRICES.get(ingredient, 0) for ingredient in ingredients)
 
     base_price = sum_ingredients(ingredients_list)
-    return base_price * 1.2  # 20% d'impôt
+    return base_price * 1.2  # 20% de taxe
 
 def get_meat() -> str:
-    """
-    Demande à l'utilisateur quel type de viande il souhaite.
+    """Demande à l'utilisateur quel type de viande il souhaite.
+
     Retourne le type de viande sélectionné.
     """
     return input("Enter the meat type: ")
 
 def get_sauce() -> str:
-    """Définit et retourne la sauce par défaut."""
+    """Définie et retourne la sauce par défaut."""
     return "ketchup and mustard"
 
 def get_cheese() -> str:
     """
     Demande à l'utilisateur quel type de fromage il souhaite.
+
     Retourne le type de fromage sélectionné.
     """
     return input("What kind of cheese? ")
@@ -57,6 +58,7 @@ def get_cheese() -> str:
 def assemble_burger() -> str:
     """
     Assemble un burger en appelant les fonctions pour chaque ingrédient.
+
     Retourne une chaîne décrivant le burger et son prix.
     """
     global BURGER_COUNT
@@ -69,26 +71,23 @@ def assemble_burger() -> str:
             "sauce": get_sauce(),
             "cheese": get_cheese(),
             "id": BURGER_COUNT,
-            "price": calculate_burger_price(
-                ["bun", "meat", "cheese"]
-            ),
+            "price": calculate_burger_price(["bun", "meat", "cheese"]),
             "timestamp": get_order_timestamp(),
         }
-    except Exception as e:
+    except Exception:
         return None
 
-    burger = (
+    return (
         f"{burger_data['bun']} bun + "
         f"{burger_data['meat']} + "
         f"{burger_data['sauce']} + "
         f"{burger_data['cheese']} cheese"
     )
 
-    return burger
-
 def save_burger(burger: str) -> None:
     """
     Sauvegarde le burger dans un fichier de texte.
+
     Écrit également le compte des burgers dans un autre fichier.
     """
     with open("/tmp/burger.txt", "w") as f:
@@ -103,11 +102,8 @@ def main() -> None:
     et assemble un burger.
     """
     burger = assemble_burger()
-
     if burger:
         save_burger(burger)
-    else:
-        pass  # Est-ce que l'on veut une gestion d'erreur plus fine ici?
 
 if __name__ == "__main__":
     main()
