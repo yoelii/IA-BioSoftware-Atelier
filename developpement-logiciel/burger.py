@@ -21,16 +21,14 @@ def get_order_timestamp() -> str:
 def get_bun() -> str:
     """
     Demande à l'utilisateur quel type de pain il souhaite.
-
     Retourne le type de pain sélectionné.
     """
     return input("What kind of bun would you like? ")
 
 def calculate_burger_price(ingredients_list) -> float:
     """
-    Calcule le prix total d'une liste d'ingrédients.
-    
-    En ajoutant les prix de chaque ingrédient et en appliquant un taux d'impôt de 20%.
+    Calcule le prix total d'une liste d'ingrédients en ajoutant les prix
+    de chaque ingrédient et en appliquant un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
         return sum(INGREDIENT_PRICES.get(ingredient, 0) for ingredient in ingredients)
@@ -39,8 +37,7 @@ def calculate_burger_price(ingredients_list) -> float:
     return base_price * 1.2  # 20% de taxe
 
 def get_meat() -> str:
-    """
-    Demande à l'utilisateur quel type de viande il souhaite.
+    """Demande à l'utilisateur quel type de viande il souhaite.
 
     Retourne le type de viande sélectionné.
     """
@@ -59,8 +56,7 @@ def get_cheese() -> str:
     return input("What kind of cheese? ")
 
 def assemble_burger() -> str:
-    """
-    Assemble un burger en appelant les fonctions pour chaque ingrédient.
+    """Assemble un burger en appelant les fonctions pour chaque ingrédient.
 
     Retourne une chaîne décrivant le burger et son prix.
     """
@@ -101,13 +97,15 @@ def save_burger(burger: str) -> None:
 
 def main() -> None:
     """
-    Point d'entrée principal du script. 
-    
+    Point d'entrée principal du script.
     Accueille l'utilisateur et assemble un burger.
     """
     burger = assemble_burger()
+
     if burger:
         save_burger(burger)
+    else:
+        pass  # Add specific handling if necessary
 
 if __name__ == "__main__":
     main()
