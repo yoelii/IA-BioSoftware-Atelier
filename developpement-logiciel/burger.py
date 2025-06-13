@@ -29,8 +29,8 @@ def get_bun() -> str:
 
 def calculate_burger_price(ingredients_list) -> float:
     """
-    Calcule le prix total d'une liste d'ingrédients.
- 
+    Donne le prix total d'une liste d'ingrédients.
+
     Prix de chaque ingrédient et un taux d'impôt de 20%.
     """
     def sum_ingredients(ingredients):
@@ -54,7 +54,7 @@ def get_sauce() -> str:
 def get_cheese() -> str:
     """
     Demande à l'utilisateur quel type de fromage il souhaite.
- 
+
     Retourne le type de fromage sélectionné.
     """
     return input("What kind of cheese? ")
@@ -89,7 +89,8 @@ def assemble_burger() -> str:
     )
 
 def save_burger(burger: str) -> None:
-    """Sauvegarde le burger dans un fichier de texte.
+    """
+    Sauvegarde le burger dans un fichier de texte.
 
     Écrit également le compte des burgers dans un autre fichier.
     """
@@ -101,8 +102,6 @@ def save_burger(burger: str) -> None:
         count_file.write(str(BURGER_COUNT).encode())
         count_file_path = count_file.name
 
-    print(f"Burger saved to {burger_file_path}")
-    print(f"Burger count saved to {count_file_path}")
 
 def main() -> None:
     """
